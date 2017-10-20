@@ -1,6 +1,18 @@
+var myTitle = function() {
+  return (
+    React.createElement('div', null,
+      React.createElement('h1', null, 'This is a React heading!')
+    )
+  );
+};
+
 var MyFirstComponent = function() {
-  return React.createElement('div', null,
-    React.createElement('h1', null, "This is my first component!")
+  return (
+    React.createElement('div', null, 
+      React.createElement(myTitle, null),
+      React.createElement(myTitle, null),
+      React.createElement(myTitle, null)
+    )
   );
 };
 
