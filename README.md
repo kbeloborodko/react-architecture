@@ -1,4 +1,4 @@
-# A Complete Intro to React
+# A sample project with React architecture
 
 Welcome to a sample React project architecture!
 
